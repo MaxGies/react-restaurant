@@ -1,14 +1,16 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
 
+### `npm install`
+
+ใช้เพื่อติดตั้งไฟล์ node_modules ซึ่ง relate ตามไฟล์ package.json
+
 ### `npm start`
 
-Runs the app in the development mode.\
+ใช้เพื่อรันโปรเจค\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
