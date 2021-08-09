@@ -17,6 +17,9 @@ const useStyles = makeStyles(() => ({
     link: {
       textDecoration: 'none',
       color: 'black',
+    },
+    gidAdjust: {
+        padding: 24,
     }
 }));
 
@@ -25,7 +28,7 @@ const Restaurants = (props) => {
     const classes = useStyles();
 
     return (
-    <>
+    <div className={classes.gidAdjust}>
         <SearchCard searchValue={setSearchValue}/>
         <Grid container justifyContent="center" spacing={6} className={classes.root}>
             {props.dataRestaurant.filter((data)=>{
@@ -46,7 +49,7 @@ const Restaurants = (props) => {
                 )
             })}
         </Grid>
-    </>
+    </div>
     );
 }
 
