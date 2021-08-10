@@ -16,14 +16,14 @@ const useStyles = makeStyles(() => ({
     },
     link: {
       textDecoration: 'none',
-      color: 'black',
+      color: 'black', 
     },
     gidAdjust: {
         padding: 24,
     }
 }));
 
-const Restaurants = (props) => {
+const Restaurants = ( props ) => {
     const [searchValue, setSearchValue] = useState("");
     const classes = useStyles();
 
